@@ -118,4 +118,4 @@ function addNote(text, category) {
 console.log(addNote("Attend JavaScript classes", "study")); // returns true and logs a success message 
 console.log(addNote("Buy milk and bread", "personal")); // returns false and logs a message indicating that a note with the same text already exists
 console.log(addNote("New note", "sports")); // returns false and logs a message indicating that the category is invalid
-console.log(addNote("  ", "work")); // returns false and logs a message indicating that the note text is empty
+console.log(addNote("  ", "work")); // returns false and logs a message indicating that the note text is emptys
